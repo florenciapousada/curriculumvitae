@@ -10875,27 +10875,13 @@ width: 14rem;
     margin-right: 0;
   }
 }
+
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
-  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-}
-header.masthead .masthead-subheading {
-  font-size: 0.5rem;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-  }
-header.masthead .masthead-heading {
-  font-size: 3.25rem;
-  font-weight: 700;
-  line-height: 3.25rem;
-  margin-bottom: 2rem;
 }
 
 #logoheader {
@@ -10904,20 +10890,29 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
   }
+
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
      line-height: 2.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
-  header.masthead .masthead-heading {
+
+  .masthead-subheading {
+    background-color: FFE4D6 !important;
+    padding-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+   }
+
+  /*header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
-  }
+  }*/
 }
 #portfolio .portfolio-item {
   max-width: 26rem;
