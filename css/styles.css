@@ -10901,8 +10901,8 @@ header.masthead {
   }
 
   .masthead-subheading {
-    background-color: FFE4D6 !important;
-    padding-top: 3rem;
+    background-color: #FFE4D6 !important;
+    margin-top:  2rem;
     margin-left: 3rem;
     margin-right: 3rem;
    }
