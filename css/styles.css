@@ -11152,6 +11152,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 #contactopersonal {
+  padding-top: 2rem;
   width: 20rem;
   text-align: center;
   background-color: #FFE4D6;
@@ -11171,4 +11172,9 @@ height: 10rem;
 #logofooter {
   height: 6rem;
 }
+
+#services {
+  padding-top: 0rem !important;
+  padding-bottom: 2rem !important;
+  justify-content: safe center;
 }
